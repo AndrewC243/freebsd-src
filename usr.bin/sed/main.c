@@ -198,7 +198,7 @@ static void
 usage(void)
 {
 	(void)fprintf(stderr,
-	    "usage: %s script [-Ealnru] [-i extension] [file ...]\n"
+	    "usage: %s [-Ealnru] [-i extension] script [file ...]\n"
 	    "\t%s [-Ealnu] [-i extension] [-e script] ... [-f script_file]"
 	    " ... [file ...]\n", getprogname(), getprogname());
 	exit(1);
